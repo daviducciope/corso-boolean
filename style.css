@@ -1,0 +1,80 @@
+
+/*contiene immagine di background*/
+body{
+    background-image: url(sfondo.jpg);
+    background-size: cover;
+}
+/*contiene la parte opaca*/
+.container {
+    width: 1000px;
+    height: 800px;
+    margin: auto;margin-top: 3%;
+    margin-bottom: 5%;
+
+    text-align: center;
+    background: rgba(0,0,0,0.5)
+}
+
+/*imposta le corrette dimensioni e la posizione del logo*/
+img {
+    width: 100px;
+    margin-top: 100px;
+}
+
+/*imposto il colore del titolo h1 (*/
+#titolo {
+    color: #00dd00;
+}
+
+/*imposta la lunghezza e i dettagli della barra verde di navigazione*/
+.navigazione {
+    width: 800px;
+    margin: auto;
+    background-color:#00dd00;
+    padding: 5px;
+}
+
+main {
+    text-align: left;
+    font-size:30px;
+    color: white;
+    margin: auto;
+}
+
+.mainbox {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/*specifica che tutte le <p> contenute nella classe genitore sono di 15 px*/
+.mainbox > p {
+    font-size: 15px;
+}
+
+
+/*id per modificare la lunghezza ed il colore delle 3 barre colorate*/
+#barra-orange {
+    width: 250px;
+    margin: left;
+    background-color:#f5b453;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+#barra-green {
+    width: 450px;
+    margin: left;
+    background-color:#1ec31e;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+#barra-red {
+    width: 150px;
+    margin: left;
+    background-color:#be4141;
+    padding: 10px;
+    border-radius: 5%;
+    margin-bottom: 50px;
+}
